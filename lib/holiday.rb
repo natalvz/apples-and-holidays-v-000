@@ -66,10 +66,8 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   winter_supplies = []
-  holiday_hash.each { |season, holiday, items| 
-  winter_supplies << supply if supply.is_a?(String)
-  }
-  winter_supplies
+  holiday_hash.each { |season, holiday| 
+  puts 
 end
 
 def all_holidays_with_bbq(holiday_hash)
