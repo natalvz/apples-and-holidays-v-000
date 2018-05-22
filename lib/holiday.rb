@@ -85,6 +85,8 @@ holiday_hash.each do |season, holiday_hash|
     bbq << holiday if supply.to_s.include?("BBQ")
   end
 end
+bbq
+end
 
 
 
