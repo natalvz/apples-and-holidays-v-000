@@ -68,6 +68,8 @@ def all_supplies_in_holidays(holiday_hash)
   winter_supplies = []
   holiday_hash.each { |season, holiday| 
   puts "#{season}: #{holiday}"}
+  holiday.each { |holiday, items|
+  puts "#{holiday}: #{items}"}
 end
 
 def all_holidays_with_bbq(holiday_hash)
