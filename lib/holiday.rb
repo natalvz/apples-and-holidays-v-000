@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
   #{holiday}"
   holiday.each { |holiday, items|
   puts "#{holiday}: #{items}"
-  
+  items.each {
     
   }
   }
