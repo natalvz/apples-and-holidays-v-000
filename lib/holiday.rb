@@ -73,6 +73,8 @@ def all_supplies_in_holidays(holiday_hash)
       word.capitalize! }.join(' ')
       supply_edited = supply.join(", ")
       puts "  #{holiday_edited}: #{supply_edited}"
+    end
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
