@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   winter_supplies = []
-  holiday_hash[:winter].flatten.flatten.each { |supply| 
+  holiday_hash.each { |season, holiday, items| 
   winter_supplies << supply if supply.is_a?(String)
   }
   winter_supplies
